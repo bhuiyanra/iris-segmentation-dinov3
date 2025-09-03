@@ -1,0 +1,21 @@
+name: dinov3
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.11
+  - omegaconf
+  - pip
+  - pip:
+    - ftfy
+    - iopath
+    - omegaconf
+    - pandas
+    - regex
+    - scikit-learn  # Use regular scikit-learn
+    - submitit
+    - termcolor
+    - torch
+    - torchvision
+    - torchmetrics
+    
